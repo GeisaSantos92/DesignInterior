@@ -1,0 +1,103 @@
+#home{
+    width: 100%;
+}
+
+.home{
+    max-width: 1440px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -3.43rem;
+}
+
+.header{
+    position: relative;
+    z-index: 99;
+}
+
+.left-home{
+    background-image: url('../../assets/fundo-home.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+
+.right-home{
+    width: 100%;
+    background: black;  
+    color: white;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-home h2{
+    display: flex;
+    justify-content: end;
+    font-size: 4rem;
+    padding-right: 1rem;
+}
+
+
+.right-home h1{
+    display: flex;
+    justify-content: end;
+    font-size: 7rem;
+    font-weight: 900;
+    padding-right: 1rem;
+}
+
+.right-home p{
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+
+
+
+
+@media (max-width: 1024px){
+    .right-home h2 {
+        font-size: 2.8rem;       
+    }
+}
+
+@media (max-width: 1024px){
+    .right-home h2 {
+        font-size: 2rem;       
+    }
+
+    .right-home h1{
+        font-size: 6rem;
+    }
+}
+
+@media(max-width:425px){
+    .right-home h1 {
+        font-size: 4rem;
+    }
+
+    .right-home h2 {
+        line-height: 30px;
+    }
+}
+
+@media(max-width:375px){
+    .right-home h1 {
+        font-size: 4rem;
+    }
+
+    .right-home h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width:320px){
+.right-home h1 {
+    font-size: 3rem;
+}
+}

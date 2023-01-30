@@ -1,0 +1,61 @@
+#design{
+    width: 100%;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+}
+
+
+.design{
+    max-width: 1440px;
+    width: 95%;
+    margin: auto;
+}
+
+.img-design{
+    align-items: flex-end;
+    display: flex;
+}
+
+
+
+.text-grid{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.text-grid h1{
+    line-height: 2.25rem;
+}
+
+.text-grid p{
+    font-size: 1.1rem;
+    font-weight: 300;
+    padding-top: 2rem;
+ 
+}
+
+
+.grid-design img{
+    filter: grayscale(100%);
+}
+
+.grid-design img:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+}
+
+
+@media( max-width: 1024px){
+    #design {
+        padding-top: 9rem;     
+    }
+}
+
+
+@media( max-width: 768px){
+    .text-grid {
+        display: none;
+    } 
+}

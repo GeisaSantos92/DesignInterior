@@ -1,0 +1,59 @@
+#overview{
+    width: 100%;
+    padding-bottom: 4rem;
+}
+
+.overview{
+    max-width: 1440px;
+    justify-content: center;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    gap: 9rem;
+}
+
+.text-over P{
+    max-width: 21rem;
+    font-weight: 300;
+}
+
+.title-over h1{
+    line-height: 2.25rem;
+}
+
+.title-over h2{
+    font-weight: 300;   
+}
+
+.list-over{
+    display: flex;
+}
+
+.lista-over{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end !important;
+}
+
+.lista-over li{
+    line-height: 45px;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+
+
+
+@media(min-width: 768px) and (max-width:1023px){
+    .overview {
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 767px){
+    .overview{
+        flex-direction: column;
+        gap: 3rem;
+    }
+    
+}

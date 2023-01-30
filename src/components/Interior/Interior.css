@@ -1,0 +1,159 @@
+#interior{
+    width: 100%;
+    background: black;
+    color: white;
+    position: relative;
+    padding-bottom: 13rem;
+}
+
+.interior{
+    max-width: 1440px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center !important;
+    padding-top: 5rem;
+    
+}
+
+.title-interior, .img-interior{
+    position: relative;
+    z-index: 99;
+}
+
+.title-interior{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+
+
+.title-interior h2{
+    font-weight: 300;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.title-interior h1{
+    display: flex;
+    justify-content: flex-end;
+    line-height: 20px;
+}
+
+.bg{
+    position: absolute;
+    background: #E18339;
+    width: 550px;
+    height: 700px;
+    top: 60px;
+}
+
+.img-interior{
+    display: flex;
+    gap: 1rem;
+    padding-right: 4rem;
+}
+
+.text-interior{
+    justify-content: flex-end;
+    display: flex;
+    padding-left: 11rem;
+    flex-direction: column;
+    line-height: normal;
+}
+
+.text-interior span{
+    font-weight: 500;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: flex-end;
+    line-height: 2rem;
+
+}
+
+
+
+
+@media (max-width: 1024px){
+    .text-interior{
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 768px){
+
+    #interior {
+        padding-bottom: 17rem;
+    }
+
+    .bg {
+        left: 13%;
+    }
+    .text-interior span{
+        font-size: 1rem;
+        justify-content: flex-start;
+}
+
+    .img-interior img{
+        width: 300px;
+    }
+}
+
+@media (max-width: 425px){
+    #interior {
+        padding-bottom: 6rem;
+    }
+
+    .text-interior{
+        display: none;
+    }
+
+    .bg {
+        left: 0;
+        top: 100px;
+        width: 424px;
+        }
+
+    .img-interior img {
+        width: 255px;
+    }
+
+   
+
+   
+}
+
+@media(max-width: 375px){
+    .bg {
+        width: 370px;
+    }
+}
+
+@media(max-width: 320px){
+    .bg {
+        width: 315px;
+    }
+}
+
+
+@media(max-width:900px){
+    .text-interior{
+        display: none;
+    }
+}
+
+
+@media(max-width: 767px){
+    .img-interior {
+        padding-right: 0; 
+    }
+
+    .img-interior {
+        flex-direction: column;
+    }
+
+   
+   
+}
